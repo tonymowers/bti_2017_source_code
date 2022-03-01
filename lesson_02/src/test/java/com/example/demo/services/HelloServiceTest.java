@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.is;
 public class HelloServiceTest {
 
     @Test
-    void test_hello() {
+    void testHello() {
         HelloService service = new HelloService();
         assertThat(service.get_hello_message("Tony"), is("Hello Tony!"));
     }
